@@ -1,18 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
-* {
-  font-family: arial;
-  color: #f5f5f5;
+:root {
   background-color: #222;
+  color: #f5f5f5;
+  font-family: arial;
 }
-.body {
-  margin-left: 10rem;
-  margin-right: 10rem;
-  text-align: center;
-  @media (max-width: 768px) {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
+html, body {
+  min-height: 100%;
+  margin: 0;
 }
-h2 a {
-  color: #ffa500;
+a {
+  text-decoration: none;
+}
+.app {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 0.5rem 0rem;
+  grid-template-areas:
+    "Header"
+    "Body"
+    "Footer";
+}
+::-webkit-scrollbar {
+width: 6px;
+}
+::-webkit-scrollbar-track {
+background-color: #12121200;
+}
+::-webkit-scrollbar-thumb {
+background-color: #fe9000;
+}
+::-webkit-scrollbar-thumb:hover {
+background: #fe9000;
 }
