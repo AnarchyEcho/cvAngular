@@ -11,7 +11,7 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "nb-no": "src/locale/messages.nb-no.xlf"
+          "nb": "src/locale/messages.nb.xlf"
         }
       },
       "schematics": {
@@ -48,7 +48,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize": ["nb-no"],
+            "localize": ["nb"],
             "outputPath": "dist/cv-angular",
             "index": "src/index.html",
             "main": "src/main.ts",

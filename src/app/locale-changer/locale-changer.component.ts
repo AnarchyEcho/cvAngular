@@ -18,6 +18,6 @@ export class LocaleChangerComponent {
     @Inject(LOCALE_ID) public activeLocale: string
   ) {}
   onChange() {
-    window.location.href = `/${this.activeLocale}`;
+    window.location.href = `/${this.activeLocale.toLowerCase()}`;
   }
 }

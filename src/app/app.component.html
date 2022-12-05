@@ -1,7 +1,8 @@
 <nav class="header">
   <a
-    routerLink="/home"
+    routerLink="/"
     routerLinkActive="router-link-active"
+    [routerLinkActiveOptions]="{ exact: true }"
     i18n
   >
     Home
