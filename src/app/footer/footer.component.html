@@ -1,11 +1,18 @@
 <div class="footer">
   <div class="links">
-    <a href="#">placeholder github</a>
-    <a href="#">placeholder linkedin</a>
-    <a href="#">placeholder mail</a>
+    <a href="https://github.com/kodeandre" target="_blank" no-rel>
+      <fa-icon [icon]="faGithub"></fa-icon>
+    </a>
+    <a href="https://www.linkedin.com/in/andr%C3%A8-hagen-a0a821217/" target="_blank" rel="noreferrer">
+      <fa-icon [icon]="faLinkedIn"></fa-icon>
+    </a>
+    <a href="mailto:anarchytrex@hotmail.com" target="_blank" rel="noreferrer">
+      <fa-icon [icon]="faEnvelope"></fa-icon>
+    </a>
   </div>
+  <app-locale-changer></app-locale-changer>
   <p style="width: 150px;">
-    <a href="https://github.com/kodeandre" target="_blank" rel="noreferrer">
+    &copy; {{years}} <a href="https://github.com/kodeandre" target="_blank" rel="noreferrer">
       Andrè Hagen
     </a>
   </p>

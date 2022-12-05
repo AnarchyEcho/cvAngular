@@ -16,5 +16,5 @@ export class ContentComponent {
     }
     return age;
   }
-  bioTop = $localize` Hi! My name is Andrè, and I am ${this.getAge('1998/02/22')}:@@947253340790384917: years old. I am a junior fullstack developer and I am now looking for a new job!`
+  bioTop = $localize`:@@947253340790384917:${this.getAge('1998/02/22')}:age:`
 }
