@@ -9,9 +9,9 @@
     "cvAngular": {
       "projectType": "application",
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": "nb-NO",
         "locales": {
-          "nb-NO": "src/locale/messages.nb-NO.xlf"
+          "en-US": "src/locale/messages.en-US.xlf"
         }
       },
       "schematics": {
@@ -48,7 +48,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize": ["nb-NO"],
+            "localize": ["en-US"],
             "outputPath": "dist/cv-angular",
             "index": "src/index.html",
             "main": "src/main.ts",

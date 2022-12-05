@@ -16,5 +16,5 @@ export class ContentComponent {
     }
     return age;
   }
-  bioTop = $localize`:@@947253340790384917:${this.getAge('1998/02/22')}:age:`
+  bioTop = $localize`:@@bioTop:${this.getAge('1998/02/22')}:age:`
 }
