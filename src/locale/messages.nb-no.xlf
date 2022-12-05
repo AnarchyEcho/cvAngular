@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8364309938383915497" datatype="html">
+        <source>Home</source>
+        <target>Hjem</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7571931095853268764" datatype="html">
+        <source>Projects</source>
+        <target>Prosjekter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7672213304752990092" datatype="html">
+        <source>Who am i</source>
+        <target>Hvem er jeg</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/content.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="947253340790384917" datatype="html">
+        <source>Hi! My name is Andrè, and I am <x id="age" /> years old. I am a junior fullstack developer and I am now looking for a new job!</source>
+        <target>Hei! Mitt navn Andrè, og er <x id="age" /> år. Jeg er en junior fullstack utvikler og er nå på jakt etter en ny jobb!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/content.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2508320306354119892" datatype="html">
+        <source>I have experience with frontend development and have recently focused on the backend. I am detail-oriented, so UX also comes naturally to me.</source>
+        <target>Jeg har erfaring med frontend-utvikling og har den siste tiden spisset meg inn mot backend. Jeg er detaljorientert, så derfor kommer UX også naturlig for meg.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/content.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="664863898884081728" datatype="html">
+        <source>Everything about programming engages me, and I am happy to familiarize myself with new languages and concepts. I work well both in teams and independently, largely because I like good structures and being goal oriented. I take responsibility and work well in responsible roles.</source>
+        <target>Alt med programmering engasjerer meg, og jeg er glad i å sette meg inn i nye språk og konsepter. Jeg jobber godt både i team og selvstendig arbeid, mye fordi jeg liker gode strukturer og jobbe målrettet. Jeg tar ansvar og jobber godt i ansvarsroller.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/content.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8158317925256652000" datatype="html">
+        <source>I have been a participant at Kodehode, where my spark for front-end development ignited, and since then my commitment to coding has developed further.</source>
+        <target>Jeg har vært deltaker på Kodehode, hvor jeg fikk tent gnisten for frontend-utvikling og siden har engasjementet mitt for koding utviklet seg videre.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/content.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5297855768806235725" datatype="html">
+        <source>In my spare time I like to travel, and when I'm not doing that I spend a lot of time playing D&amp;D where I usually take a leading role. I'm also an active MMO gamer and like to brush up on various simulation games.</source>
+        <target>På fritiden er jeg glad i å reise, og når jeg ikke gjør det går det mye i D&amp;D hvor jeg vanligvis tar en ledende rolle. Jeg er også en aktiv MMO-gamer og liker å bryne meg på ulike simulasjonsspill.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/content.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="656383200150430419" datatype="html">
+        <source>Open CV</source>
+        <target>Åpne CV</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/content.component.html</context>
+          <context context-type="linenumber">11,13</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

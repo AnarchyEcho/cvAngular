@@ -8,6 +8,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ContentComponent } from './content/content.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ToTopComponent } from './to-top/to-top.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     ProjectsComponent,
     PageNotFoundComponent,
-    ContentComponent
+    ContentComponent,
+    ToTopComponent,
   ],
   imports: [
     BrowserModule,

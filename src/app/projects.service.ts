@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable, of, catchError } from 'rxjs';
 import { Project } from './Project';
-import { HttpClient, HttpHeaders } from '@angular/common/http'
+import { HttpClient } from '@angular/common/http'
 
 @Injectable({
   providedIn: 'root'
@@ -11,6 +11,9 @@ export class ProjectsService {
 
   getProjects(): Observable<Project[]> {
     return this.http.get<Project[]>(this.apiUrl)
+      .pipe(
+        catchError(this.handleError<Project[]>('getProjects', []))
+      )
   }
 
   constructor(

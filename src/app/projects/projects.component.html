@@ -1,1 +1,7 @@
-<p>projects works!</p>
+<div class="projectsList">
+  <div *ngFor="let project of projects">
+    <h3>{{project.name}}</h3>
+  </div>
+</div>
+
+<app-to-top></app-to-top>

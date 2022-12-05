@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 3000",
-    "build": "ng build",
+    "start": "ng serve --port 3000 --host 0.0.0.0",
+    "build": "ng build --localize",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -29,6 +29,7 @@
     "@angular-eslint/template-parser": "^15.1.0",
     "@angular/cli": "~15.0.1",
     "@angular/compiler-cli": "^15.0.0",
+    "@angular/localize": "15.0.2",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
