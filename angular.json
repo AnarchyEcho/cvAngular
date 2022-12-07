@@ -9,7 +9,7 @@
     "cvAngular": {
       "projectType": "application",
       "i18n": {
-        "sourceLocale": "nb-NO",
+        "sourceLocale": "nb",
         "locales": {
           "en-US": "src/locale/messages.en-US.xlf"
         }

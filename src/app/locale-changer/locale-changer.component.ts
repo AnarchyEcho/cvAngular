@@ -11,13 +11,14 @@ import {
 })
 export class LocaleChangerComponent {
   locales = [
+    { code: 'nb', name: 'Norsk' },
     { code: 'en-US', name: 'English' },
-    { code: 'nb-NO', name: 'Norsk' },
   ];
   constructor(
     @Inject(LOCALE_ID) public activeLocale: string
   ) {}
   onChange() {
     window.location.href = `/${this.activeLocale}`;
+    console.log(`using this language: ${this.activeLocale}`)
   }
 }
