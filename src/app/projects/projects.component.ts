@@ -9,12 +9,17 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
+  loading: boolean = false;
   projects: Project[] = [];
   faGithub = faGithub;
 
   getProjects() {
+    this.loading = true;
     this.projectsService.getProjects()
-      .subscribe(projects => this.projects = projects)
+      .subscribe(projects => {
+        this.projects = projects;
+        this.loading = false;
+      })
   }
 
   ngOnInit(): void {

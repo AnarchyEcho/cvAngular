@@ -1,14 +1,20 @@
-<div class="projectsList">
-  <div *ngFor="let project of projects" class="project">
-    <h3 class="title">{{ project.name }}</h3>
-    <a :href="project.homepage" target="_blank" *ngIf="project.homepage else noSite">{{ project.homepage }}</a>
-    <ng-template #noSite>
-      <p class="noSite" i18n>Har ikke eller kan ikke ha en live webside</p>
-    </ng-template>
-    <p>{{ project.description }}</p>
-    <p i18n>Mest brukt språk: <span>{{ project.language }}</span></p>
-    <a :href="project.html_url" target="_blank"><fa-icon [icon]="faGithub" class="icons"></fa-icon></a>
-  </div>
+<div *ngIf="loading else loaded">
+  <h2 style="text-align: center;">Loading projects...</h2>
 </div>
+
+<ng-template #loaded>
+  <div class="projectsList">
+    <div *ngFor="let project of projects" class="project">
+      <h3 class="title">{{ project.name }}</h3>
+      <a :href="project.homepage" target="_blank" *ngIf="project.homepage else noSite">{{ project.homepage }}</a>
+      <ng-template #noSite>
+        <p class="noSite" i18n>Har ikke eller kan ikke ha en live webside</p>
+      </ng-template>
+      <p>{{ project.description }}</p>
+      <p i18n>Mest brukt språk: <span>{{ project.language }}</span></p>
+      <a :href="project.html_url" target="_blank"><fa-icon [icon]="faGithub" class="icons"></fa-icon></a>
+    </div>
+  </div>
+</ng-template>
 
 <app-to-top></app-to-top>
