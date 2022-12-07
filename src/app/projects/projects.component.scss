@@ -1,0 +1,33 @@
+.projectsList {
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  margin-left: 1rem;
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1fr);
+  }
+}
+.project {
+  background-color: #282828;
+  width: 60%;
+  padding: 0rem 1rem 1rem;
+  border-radius: 10px;
+}
+.title {
+  color: #ffa500;
+}
+.noSite {
+  color: #808080;
+}
+a {
+  word-break: break-word;
+  color: #0094e3;
+  font-weight: bold;
+}
+.icons {
+  font-size: 2rem;
+  color: #ffa500;
+}
