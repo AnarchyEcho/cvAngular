@@ -3,12 +3,12 @@
     <div class="wrapper">
       <h2 i18n>Hvem er jeg</h2>
       <p i18n>Hei! Mitt navn Andrè, og er {{age}} år. Jeg er en junior fullstack utvikler og er nå på jakt etter en ny jobb!</p>
-      <img class="myImage" src="/assets/img/me.png" alt="Portrait of the website owner">
+      <img class="myImage" [src]="imgPath" alt="Portrait of the website owner">
       <p i18n>Jeg har erfaring med frontend-utvikling og har den siste tiden spisset meg inn mot backend. Jeg er detaljorientert, så derfor kommer UX også naturlig for meg.</p>
       <p i18n>Alt med programmering engasjerer meg, og jeg er glad i å sette meg inn i nye språk og konsepter. Jeg jobber godt både i team og selvstendig arbeid, mye fordi jeg liker gode strukturer og jobbe målrettet. Jeg tar ansvar og jobber godt i ansvarsroller.</p>
       <p i18n>Jeg har vært deltaker på Kodehode, hvor jeg fikk tent gnisten for frontend-utvikling og siden har engasjementet mitt for koding utviklet seg videre.</p>
       <p i18n>På fritiden er jeg glad i å reise, og når jeg ikke gjør det går det mye i D&amp;D hvor jeg vanligvis tar en ledende rolle. Jeg er også en aktiv MMO-gamer og liker å bryne meg på ulike simulasjonsspill.</p>
-      <a href="/assets/pdf/AndreCV.pdf" target="_blank" class="pdf" i18n>
+      <a [href]="pdfPath" target="_blank" class="pdf" i18n>
         Åpne CV
       </a>
     </div>

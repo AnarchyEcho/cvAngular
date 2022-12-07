@@ -16,5 +16,7 @@ export class ContentComponent {
     }
     return age;
   }
-  age = `${this.getAge('1998/02/22')}`
+  age = `${this.getAge('1998/02/22')}`;
+  imgPath = './assets/img/me.png';
+  pdfPath = './assets/pdf/AndreCV.pdf';
 }
