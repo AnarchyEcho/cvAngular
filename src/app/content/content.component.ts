@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-content',
@@ -19,4 +20,5 @@ export class ContentComponent {
   age = `${this.getAge('1998/02/22')}`;
   imgPath = './assets/img/me.png';
   pdfPath = './assets/pdf/AndreCV.pdf';
+  external = faUpRightFromSquare;
 }
